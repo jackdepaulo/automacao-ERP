@@ -7,10 +7,10 @@ import pyperclip
 pyautogui.FAILSAFE = True
 
 
-def encontrar_imagem(imagem):  # substituindo os while
+def encontrar_imagem(imagem):
     while not pyautogui.locateOnScreen(imagem, grayscale=True, confidence=0.90):
         time.sleep(1)
-    encontrou = pyautogui.locateOnScreen(imagem, grayscale=True, confidence=0.90)  # posição x,y,largura,altura
+    encontrou = pyautogui.locateOnScreen(imagem, grayscale=True, confidence=0.90)
     return encontrou
 
 
