@@ -1,7 +1,7 @@
 ## Projeto de Automacao de Sistemas -ERP(Tovts, SAP, etc)
  
  Cadastrando, de forma automatizada, produtos de uma loja, no sistema ERP
-- Exemplo de ERP :** Fakturama** [`link`](https://www.fakturama.info/)
+- Exemplo de ERP : [`Fakturama`](https://www.fakturama.info/)
 - Dados : Excel
 
 ## Bibliotecas
